@@ -10,7 +10,6 @@ function bgSwap()
 	var num = Math.ceil( Math.random() * totalCount );
 	document.body.background = 'bgimages/'+num+'.jpg';
 	document.body.style.backgroundSize = "cover";// Background repeat
-
 	document.body.style.position = "center";
 
 }
