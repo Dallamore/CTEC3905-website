@@ -1,19 +1,21 @@
-html{
-    /*background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
-
-    background: url("../bgimages/1.jpg") no-repeat center center fixed;
-    background-size: cover;
+h1, nav, body, svg{
+	font-family: 'Oxygen', sans-serif;
 }
 
 body, html {
     height: 99%;
 }
 
+body{
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
 h1 {
   font-size: 5em;
-  color: #eef;
+  color: #ffffff;
   margin: 0;
   padding: 0.5em;
   top: 50%;
@@ -25,7 +27,6 @@ nav {
   padding: 0;
   overflow: hidden;
   display: flex;
-  font-family: 'Roboto', sans-serif;
   font-size: 2em;
 
 }
