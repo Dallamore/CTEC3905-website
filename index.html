@@ -5,10 +5,10 @@
 	<title>David Dallamore | The Site</title>
 	<link rel="stylesheet" href="styles/styles.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen:700">
-
 </head>
 
 <body id="background">
+	<svg id="canvas"></svg>
 	<nav>
 		<a href="/html/">Nav1</a>
 		<a href="/css/">Nav2</a>
@@ -16,28 +16,23 @@
 		<a href="/jquery/">Nav4</a>
 	</nav>
 
-
-
-<!-- <svg width="710" height="240" version="1.1">
-  <defs>
-      <radialGradient id="Gradient2">
-        <stop offset="0%" stop-color="#656565"/>
-		<stop offset="50%" stop-color="#656565"/>
-		<stop offset="100%" stop-color="#656565" stop-opacity="0"/>
-      </radialGradient>
-
-  </defs>
-
-   <rect x="50" y="40" rx="15" ry="15" width="600" height="200" fill="url(#Gradient2)"/>
-
-<text fill="white" x="150" y="130" font-size="6em">David</text>
-<text fill="white" x="150" y="210" font-size="6em">Dallamore</text>
-</svg> -->
-
-<svg width="100" id="canvas" height="100">
-   <circle id="star" cx="50" cy="50" r="1" fill="yellow" />
-   Sorry, your browser does not support inline SVG.
+<svg>
+	<svg x="80%" y="80%">
+			<path fill="grey" d="M16.041,96.89l-4.949-15.407l-1.877,1.712L5.461,98.602L0,96.719
+		V69.843l7.338-5.478c0,0-0.171-0.913-0.171-1.369c-0.207-1.521-0.331-2.261-0.512-3.595c-0.291-2.147-0.54-4.578-0.683-7.019
+		c0-0.799-0.171-1.427-0.171-2.225c-0.187-3.355-0.137-9.582,0.171-12.668c0-0.628,0.205-2.364,0.341-3.252
+		c0.455-2.682,0.74-4.166,1.194-6.847c1.937-6.881,4.049-12.614,7.509-17.803c1.685-2.527,3.699-5.08,5.802-7.19
+		c0.798-0.8,1.507-1.418,2.56-2.054c0.928-0.515,3.114-0.29,3.925,0.342c0.65,0.506,1.604,1.633,2.218,2.397
+		c0.577,0.716,1.373,1.635,1.877,2.225c1.327,1.555,2.269,2.898,3.413,4.622c3.413,5.144,5.529,10.893,7.508,17.632
+		c0.455,2.739,0.91,5.478,1.365,8.217c0.083,1.087,0.306,3.335,0.341,4.28c0.185,2.525,0.17,3.237,0.171,5.991
+		c0,1.027,0,1.541,0,2.568c-0.251,2.556-0.295,3.831-0.512,5.82c-0.281,2.573-1.024,9.757-1.024,9.757L50,69.672v27.047
+		c0,0-5.745,1.883-5.802,1.883c-0.066-1.446-3.754-15.578-3.754-15.578l-1.536-1.369c0,0-1.138,4.096-2.55,8.27
+		c-0.885,2.614-2.74,6.966-2.74,6.966H16.041z"/>
 </svg>
+	</svg>
+
+
+
 
 
 	<main>
@@ -48,7 +43,6 @@
 
 
 
-<!--<script src="scripts/bg-swap.js"></script>-->
 <script src="scripts/star.js"></script>
 </body>
 </html>

@@ -1,26 +1,23 @@
-let b = document.getElementById("canvas");
-let star = document.getElementById("star");
-makeStars(star);
-
-function makeStars(star){
-  var newElement = document.createElementNS("http://www.w3.org/2000/svg", 'path'); //Create a path in SVG's namespace
-  newElement.setAttribute("d","M 0 0 L 10 10"); //Set path's data
-  newElement.style.stroke = "#efefef"; //Set stroke colour
-  newElement.style.strokeWidth = "5px"; //Set stroke width
-  newElement.cx = ranNum();
-  newElement.cy = ranNum();
-  b.appendChild(newElement);
-    // for (var i = 0; i < 100; i++) {
-    //   let x = ranNum();
-    //   let y = ranNum();
-    //   console.log(x + "  " + y);
-    //   star.cx = x;
-    //   star.cy = y;
-    //   b.appendChild(newElement);
-    // }
+function getRandomInt(min, max) {
+	return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function ranNum(){
-  return Math.ceil( Math.random() * 1000 );
+let svgDocument = document.getElementById("canvas");
+let svgns = "http://www.w3.org/2000/svg";
+let shape = document.createElementNS(svgns, "circle");
+let shape2 = document.createElementNS(svgns, "circle");
 
+stArray =[];
+
+for (i = 0; i < 400; i++){
+  stArray[i] = document.createElementNS(svgns, "circle");
+  stArray[i].setAttributeNS(null, "cx", getRandomInt(0,screen.width));
+  stArray[i].setAttributeNS(null, "cy", getRandomInt(0,screen.height));
+  stArray[i].setAttributeNS(null, "r", getRandomInt(1,2));
+  stArray[i].setAttributeNS(null, "fill", "white");
+}
+
+
+for (i = 0; i < stArray.length; i++){
+  document.getElementById("canvas").appendChild(stArray[i]);
 }
