@@ -4,8 +4,8 @@ h1, nav, body, svg{
 
 body, html {
     margin: 0;
-		padding: 0;
-		overflow: hidden;
+	padding: 0;
+	overflow: hidden;
 }
 
 svg {
@@ -14,13 +14,12 @@ svg {
 	left: 0;
 	height: 100%;
 	width: 100%;
+	z-index: -1;
 }
 
 body{
 	background-color: black;
 }
-
-
 
 h1 {
   font-size: 5em;
@@ -28,7 +27,6 @@ h1 {
   margin: 0;
   padding: 0.5em;
   top: 50%;
-
 }
 
 nav {
@@ -37,7 +35,6 @@ nav {
   overflow: hidden;
   display: flex;
   font-size: 2em;
-
 }
 
 nav a {
@@ -46,10 +43,10 @@ nav a {
   text-align: center;
   padding: 14px 16px;
   flex-grow: 1;
-  /*border: 1px solid white;
-  border-radius: 10px;*/
+  border-radius: 10px;
   text-decoration: none;
   opacity: 0.5;
+  background-color: #001942;
 }
 
 nav a:hover {
