@@ -1,9 +1,9 @@
-h1, nav, body, svg{
+h1, nav, body {
 	font-family: 'Oxygen', sans-serif;
 }
 
 body, html {
-    margin: 0;
+  margin: 0;
 	padding: 0;
 	overflow: hidden;
 }
@@ -51,4 +51,17 @@ nav a {
 
 nav a:hover {
   opacity: 1;
+}
+
+@keyframes fly {
+	/*0% { opacity: 1; }
+	100% { opacity: 0; }*/
+
+	0% {transform: translateY(150px);}
+	100% {transform: translateY(-700px);}
+
+}
+
+.spaceship{
+	animation: fly 5s ease infinite;
 }
