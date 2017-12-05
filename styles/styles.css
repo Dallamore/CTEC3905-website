@@ -54,15 +54,20 @@ nav a:hover {
 }
 
 @keyframes fly {
-	/*0% { opacity: 1; }
-	100% { opacity: 0; }*/
-
 	0% {transform: translateY(30%);}
 	100% {transform: translateY(-130%);}
-
 }
 
 .spaceship{
 	animation: fly 8s ease infinite;
 	fill: grey;
 }
+
+section {
+	background-color: blue;
+	color: white;
+	width: 70%;
+	float: left;
+	height: 10%;
+}
+
