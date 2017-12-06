@@ -52,15 +52,16 @@ nav a:hover {
 	fill: grey;
 }
 
-main{
-	height: 1000px;
+main {
+	position: absolute;
+	top: 10%;
+	width: 85%;
+	background-color: grey;
+	color: white;
+	height: 80%;
+	opacity: 0.5;
 }
 
-section {
-	width: 85%;
-	background-color: blue;
-	color: white;
-	margin-top: 300px;
-	height: 1200px;
-
+.slideshowContainer{
+	opacity: 1;
 }
