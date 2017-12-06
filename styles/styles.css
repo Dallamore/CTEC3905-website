@@ -48,7 +48,7 @@ nav a:hover {
 }
 
 .spaceship{
-	animation: fly 8s ease infinite;
+	animation: fly 8s infinite;
 	fill: grey;
 }
 
@@ -62,6 +62,6 @@ main {
 }
 
 .centre{
-	margin-left: 27%;
-	margin-top: 20%;
+	display: table;
+	margin: 2em auto;
 }
