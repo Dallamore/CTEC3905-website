@@ -6,6 +6,7 @@
 let index = 0;
 let i;
 let slides = document.getElementsByClassName("slides");
+let slidetext = document.getElementsByClassName("slidetext");
 let timeout;
 let paused = false;
 
@@ -14,10 +15,6 @@ let pauseButton = document.getElementById("pauseButton");
 let nextButton = document.getElementById("nextButton");
 let prevButton = document.getElementById("prevButton");
 
-//googleSymbols
-let googleSymbols = document.getElementsByClassName("googleSymbols");
-googleSymbols[0].style.display = "block;"
-googleSymbols[1].style.display = "none";
 //Add Listeners
 pauseButton.addEventListener("click", pause);
 nextButton.addEventListener("click", next);
@@ -29,6 +26,7 @@ function showSlides() {
 	//Makes all the images invisible
 	for ( i = 0; i < slides.length; i++) {
 		slides[i].style.display = "none";
+		slidetext[i].style.display = "none";
 	}
 	//selects the next image
 	index++;
@@ -37,6 +35,7 @@ function showSlides() {
 		index = 1;
 	//make the correct image display
 	slides[index - 1].style.display = "block";
+	slidetext[index-1].style.display="block";
 	//define a pause length, and what to do after
 	timeout = setTimeout(showSlides, 3000);
 }
