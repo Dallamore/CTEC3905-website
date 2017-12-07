@@ -24,20 +24,21 @@ main {
 	width: 85%;
 	background-color: RGBA(128,128,128,0.5);
 	color: white;
-	height: 80%;
-
 }
 
 .centre{
-	display: table;
+	display: flex;
+	flex-direction: column;
 	margin: 2em auto;
 	width: 85%;
+	position: static;
+	
 }
 
 .slidetext {
 	padding: 0px 10px;
 	font-size: 36px;
-	overflow: hidden;
+	overflow: ellipsis;
 	height: 15em;
 }
 
