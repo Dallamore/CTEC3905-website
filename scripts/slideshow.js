@@ -55,12 +55,8 @@ function pause() {
 		clearTimeout(timeout);
 		//changes the text value in button
 	if (!paused) {
-		googleSymbols[0].style.display="none";
-		googleSymbols[1].style.display="block";
 		paused = true;
 	} else {
-		googleSymbols[0].style.display="block";
-		googleSymbols[1].style.display="none";
 		paused = false;
 		timeout = setTimeout(showSlides, 3000);
 	}
