@@ -34,8 +34,6 @@ main {
 .slidetext {
 	padding: 0px 10px;
 	font-size: 36px;
-	overflow: ellipsis;
-	height: 15em;
 }
 
 nav {
@@ -47,8 +45,6 @@ nav {
   overflow: hidden;
   display: flex;
   font-size: 2em;
-  position: absolute;
-  bottom: 0;
   width: inherit;
 }
 
@@ -70,15 +66,20 @@ nav button:hover {
   opacity: 1;
 }
 
+p {
+	height: 500px;
+}
+
 .slides{
   width: 100%;
   height: auto;
-animation-name:fade;
-animation-duration: 3s;
+  animation-name:fade;
+  animation-duration: 3s;
 }
+
 @keyframes fade{
-0%{opacity:0.0;}
-100%{opacity:1;}
+  0%{opacity:0.0;}
+  100%{opacity:1;}
 }
 
 @keyframes fly {
@@ -91,10 +92,17 @@ animation-duration: 3s;
 	fill: grey;
 }
 
+@media screen and (min-width: 700px) {
+  body{
+    background-color: orange;
+  }
 
+  .slides{
+    width: 50%;
+    justify-content: flex-end;
+  }
 
-
-
-
-
-
+  .centre{
+    flex-direction: row-reverse;
+  }
+}
