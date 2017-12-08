@@ -92,34 +92,37 @@ section{
 }
 
 @keyframes fly {
-  0% {transform: translateY(30%);}
-  100% {transform: translateY(-130%);}
+  0% {transform: translateY(110%);}
+  100% {transform: translateY(-10%);}
 }
 
 @keyframes flicker{
-  0%   {transform: rotate(-1deg);}
-  20%  {transform: rotate(1deg);}
-  40%  {transform: rotate(-1deg);}
-  60%  {transform: rotate(1deg) scaleY(1.04);}
-  80%  {transform: rotate(-2deg) scaleY(0.92);}
-  100% {transform: rotate(1deg);}
-
-/*
-transform-origin:center bottom;
-animation-name: flicker;
-animation-duration:3ms;
-animation-delay:200ms;
-animation-timing-function: ease-in;
-animation-iteration-count: infinite;
-animation-direction: alternate;
-*/
-
-
+  0%   {transform: rotate(-10deg);}
+  20%  {transform: rotate(10deg);}
+  40%  {transform: rotate(-10deg);}
+  60%  {transform: rotate(10deg) scaleY(1.04);}
+  80%  {transform: rotate(-10deg) scaleY(0.92);}
+  100% {transform: rotate(10deg);}
 }
 
 .spaceship {
-  animation: fly 8s infinite;
-  fill: grey;
+  position: fixed;
+  left: 90%;
+
+
+  animation: fly 4s linear infinite;
+}
+/*flicker 3ms 200ms ease-in infinite alternative*/
+
+
+.spaceship_fire{
+  transform-origin:center top;
+  animation-name: flicker;
+  animation-duration:3ms;
+  animation-delay:200ms;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 @media only screen and (min-width: 565px) {
