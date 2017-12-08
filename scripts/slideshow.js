@@ -37,7 +37,7 @@ function showSlides() {
 	slides[index - 1].style.display = "block";
 	slidetext[index-1].style.display="block";
 	//define a pause length, and what to do after
-	timeout = setTimeout(showSlides, 3000);
+	timeout = setTimeout(showSlides, 15000);
 }
 //next photo button handler
 function next() {

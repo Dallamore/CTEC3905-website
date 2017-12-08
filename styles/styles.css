@@ -22,7 +22,7 @@ main {
 }
 
 .centre{
-  padding-top: 7%;
+  padding-top: 5%;
   display: flex;
   flex-direction: column;
   margin: 2em auto;
@@ -33,7 +33,7 @@ main {
   width: 100%;
   height: auto;
   animation-name:fade;
-  animation-duration: 3s;
+  animation-duration: 15s;
   margin: 0 auto;
 }
 
@@ -41,7 +41,7 @@ main {
   padding: 0px 10px;
   font-size: 100%;
   animation-name:fade;
-  animation-duration: 3s;
+  animation-duration: 15s;
 }
 
 nav {
@@ -82,13 +82,39 @@ section{
 }
 
 @keyframes fade {
-  0%{opacity:0.0;}
-  100%{opacity:1;}
+  /*0%{opacity:0.0;}
+  100%{opacity:1;}*/
+  0% {transform: translateX(-350%);}
+  15% {transform: translateX(0%);}
+  90% {transform: translateX(0%);}
+  100% {transform: translateX(-350%);}
+
 }
 
 @keyframes fly {
   0% {transform: translateY(30%);}
   100% {transform: translateY(-130%);}
+}
+
+@keyframes flicker{
+  0%   {transform: rotate(-1deg);}
+  20%  {transform: rotate(1deg);}
+  40%  {transform: rotate(-1deg);}
+  60%  {transform: rotate(1deg) scaleY(1.04);}
+  80%  {transform: rotate(-2deg) scaleY(0.92);}
+  100% {transform: rotate(1deg);}
+
+/*
+transform-origin:center bottom;
+animation-name: flicker;
+animation-duration:3ms;
+animation-delay:200ms;
+animation-timing-function: ease-in;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+*/
+
+
 }
 
 .spaceship {
@@ -115,9 +141,6 @@ section{
     font-size: 110%;
   }
 
-  .centre{
-    /*flex-direction: row;*/
-  }
 }
 
 @media only screen and (min-width: 950px) {
@@ -129,9 +152,6 @@ section{
     font-size: 95%;
   }
 
-  .centre{
-    /*flex-direction: row;*/
-  }
 }
 
 @media only screen and (min-width: 975px) {
@@ -146,7 +166,7 @@ section{
   .centre{
     flex-direction: row;
     margin-top: 7%;
-    padding-top: 7%;
+    padding-top: 2%;
   }
 }
 
@@ -160,6 +180,7 @@ section{
   }
 
   .centre{
-    margin-top: 2em;
+    margin-top: 1.5em;
+    padding-top: 3%;
   }
 }
