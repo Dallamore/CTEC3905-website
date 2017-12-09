@@ -82,13 +82,14 @@ section{
 }
 
 /*ANIMATION ITEMS START*/
+/*
 @keyframes fade {
   0% {transform: translateX(-350%);}
   15% {transform: translateX(0%);}
   90% {transform: translateX(0%);}
   100% {transform: translateX(-350%);}
 }
-
+*/
 @keyframes fly {
   0% {transform: translateY(110%);}
   100% {transform: translateY(-10%);}
@@ -106,13 +107,13 @@ section{
 .spaceship {
   position: fixed;
   left: 90%;
-  animation: fly 4s linear infinite;
+  animation: fly 10s linear infinite;
 }
 
 .spaceship_fire{
   transform-origin:center top;
   animation-name: flicker;
-  animation-duration:3ms;
+  animation-duration:500ms;
   animation-delay:200ms;
   animation-timing-function: ease-in;
   animation-iteration-count: infinite;
