@@ -81,14 +81,12 @@ section{
   align-items: center;
 }
 
+/*ANIMATION ITEMS START*/
 @keyframes fade {
-  /*0%{opacity:0.0;}
-  100%{opacity:1;}*/
   0% {transform: translateX(-350%);}
   15% {transform: translateX(0%);}
   90% {transform: translateX(0%);}
   100% {transform: translateX(-350%);}
-
 }
 
 @keyframes fly {
@@ -108,12 +106,8 @@ section{
 .spaceship {
   position: fixed;
   left: 90%;
-
-
   animation: fly 4s linear infinite;
 }
-/*flicker 3ms 200ms ease-in infinite alternative*/
-
 
 .spaceship_fire{
   transform-origin:center top;
@@ -124,12 +118,21 @@ section{
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
+/*ANIMATION ITEMS END*/
 
+/*SPACESHIP PARTS COLOURS START*/
+.shipBody{fill: #4AA0D8;}
+.shipBase{fill: #397AA7;}
+.shipFins{fill: #CCCCCC;}
+.shipFireInner{fill: #FFCC67;}
+.shipFireOuter{fill: #ED7061;}
+/*SPACESHIP PARTS COLOURS START*/
+
+/*MEDIA QUERIES START*/
 @media only screen and (min-width: 565px) {
   .slides{
     width: 80%;
   }
-
   .slidetext {
     font-size: 100%;
   }
@@ -139,33 +142,27 @@ section{
   .slides{
     width: 65%;
   }
-
   .slidetext {
     font-size: 110%;
   }
-
 }
 
 @media only screen and (min-width: 950px) {
   .slides{
     width: 65%;
   }
-
   .slidetext {
     font-size: 95%;
   }
-
 }
 
 @media only screen and (min-width: 975px) {
   .slides{
     width: 100%;
   }
-
   .slidetext {
     font-size: 150%;
   }
-
   .centre{
     flex-direction: row;
     margin-top: 7%;
@@ -177,13 +174,12 @@ section{
   .slides{
     width: 95%;
   }
-
   .slidetext {
     font-size: 200%;
   }
-
   .centre{
     margin-top: 1.5em;
     padding-top: 3%;
   }
 }
+/*MEDIA QUERIES END*/
