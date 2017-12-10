@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <title>David Dallamore | The Site</title>
   <link rel="stylesheet" href="styles/styles.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen:700">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:700">
 </head>
 
 <body>
@@ -46,14 +46,9 @@
 
   <main>
     <div class="centre" id="centre">
-
       <section id="slideImgs">
         <h1>David Dallamore:</h1>
-
-       <!-- <img src="images/1.jpg" alt="slide1" class="slides">
-        <img src="images/2.jpg" alt="slide2" class="slides">
-        <img src="images/3.jpg" alt="slide3" class="slides"> -->
-
+        <!-- Javascript loads content here -->
       </section>
     </div>
 
@@ -64,24 +59,19 @@
       </button>
 
       <button id="pauseButton" class="slideshowButton">
-        <img src="images/pause.svg" alt="Pause Slide">
+        <img src="images/pause.svg" alt="Pause Slide" class="pausePlay">
+        <img src="images/play.svg" alt="Play Slide" class="pausePlay">
       </button>
 
       <button id="nextButton" class="slideshowButton">
         <img src="images/next.svg" alt="Next Slide">
       </button>
     </nav>
-
-
-
-
   </main>
 
-
-  <script type="text/javascript" src="scripts/data.js"></script>
-  <script type="text/javascript" src="scripts/star.js"></script>
-  <script type="text/javascript" src="scripts/infoReader.js"></script>
-  <script type="text/javascript" src="scripts/slideshow.js"></script>
+  <script src="scripts/data.js"></script>
+  <script src="scripts/star.js"></script>
+  <script src="scripts/infoReader.js"></script>
+  <script src="scripts/slideshow.js"></script>
 </body>
-
 </html>

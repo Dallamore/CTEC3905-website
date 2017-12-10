@@ -9,6 +9,9 @@ let slides = document.getElementsByClassName("slides");
 let slidetext = document.getElementsByClassName("slidetext");
 let timeout;
 let paused = false;
+let pausePlay = document.getElementsByClassName("pausePlay");
+pausePlay[0].style.display = "block";
+pausePlay[1].style.display = "none";
 
 //Button elements for slideshow
 let pauseButton = document.getElementById("pauseButton");
@@ -55,9 +58,13 @@ function pause() {
 		clearTimeout(timeout);
 		//changes the text value in button
 	if (!paused) {
+		pausePlay[0].style.display = "none";
+		pausePlay[1].style.display = "block";
 		paused = true;
 	} else {
 		paused = false;
+		pausePlay[0].style.display = "block";
+		pausePlay[1].style.display = "none";
 		timeout = setTimeout(showSlides, 3000);
 	}
 }
