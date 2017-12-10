@@ -86,7 +86,6 @@ section{
 }
 
 /*ANIMATION ITEMS START*/
-
 @keyframes fade {
   0% {transform: translateX(-350%);}
   15% {transform: translateX(0%);}

@@ -18,7 +18,7 @@
     im.setAttribute("src", imgLocationArray[i]);
     im.setAttribute("alt", "Slide"+i);
     im.setAttribute("class", "slides");
-    slideImages.append(im);
+    slideImages.appendChild(im);
   }
 
   for(i = 0; i < titleArray.length; i++){
@@ -32,6 +32,6 @@
     p1.appendChild(p2);
     tt.appendChild(h1);
     tt.appendChild(p1);
-    centreSection.append(tt);
+    centreSection.appendChild(tt);
   }
 }());
