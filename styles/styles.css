@@ -82,26 +82,12 @@ section{
 }
 
 /*ANIMATION ITEMS START*/
-/*
+
 @keyframes fade {
   0% {transform: translateX(-350%);}
   15% {transform: translateX(0%);}
   90% {transform: translateX(0%);}
   100% {transform: translateX(-350%);}
-}
-*/
-@keyframes fly {
-  0% {transform: translateY(110%);}
-  100% {transform: translateY(-10%);}
-}
-
-@keyframes flicker{
-  0%   {transform: rotate(-10deg);}
-  20%  {transform: rotate(10deg);}
-  40%  {transform: rotate(-10deg);}
-  60%  {transform: rotate(10deg) scaleY(1.04);}
-  80%  {transform: rotate(-10deg) scaleY(0.92);}
-  100% {transform: rotate(10deg);}
 }
 
 .spaceship {
@@ -110,6 +96,19 @@ section{
   animation: fly 10s linear infinite;
 }
 
+@keyframes fly {
+  0% {transform: translateY(110%);}
+  100% {transform: translateY(-10%);}
+}
+/*
+@keyframes flicker{
+  0%   {transform: rotate(-10deg);}
+  20%  {transform: rotate(10deg);}
+  40%  {transform: rotate(-10deg);}
+  60%  {transform: rotate(10deg) scaleY(1.04);}
+  80%  {transform: rotate(-10deg) scaleY(0.92);}
+  100% {transform: rotate(10deg);}
+}
 .spaceship_fire{
   transform-origin:center top;
   animation-name: flicker;
@@ -119,6 +118,7 @@ section{
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
+*/
 /*ANIMATION ITEMS END*/
 
 /*SPACESHIP PARTS COLOURS START*/

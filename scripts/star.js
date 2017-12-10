@@ -12,7 +12,7 @@ for (i = 0; i < 8000; i++){
 	stArray[i].setAttributeNS(null, "cx", getRandomInt(0,4000)); //width
 	stArray[i].setAttributeNS(null, "cy", getRandomInt(0,3000)); //height
 	stArray[i].setAttributeNS(null, "r", getRandomInt(1,2)); //
-	stArray[i].setAttributeNS(null, "fill", "white");
+	stArray[i].setAttributeNS(null, "fill", "grey");
 	stArray[i].setAttributeNS(null, "class", "shooting");
 }
 
