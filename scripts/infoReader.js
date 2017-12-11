@@ -19,20 +19,6 @@
     centreSection.appendChild(createSection(tileTitleArray[i],tileTextArray[i]));
   }
 
-
-
-  centreSection.appendChild(createSection("Map","Places to go"));
-
-
-
-  let mapDiv = document.createElement("DIV");
-  mapDiv.setAttribute("id", "map");
-  mapDiv.setAttribute("class", "map slides");
-  slideImages.appendChild(mapDiv);
-
-
-
-
   function createSection(x, y){
     let tt = document.createElement("SECTION");
     tt.setAttribute("class", "slideText");
@@ -63,6 +49,50 @@
     return j;
   }
 
+/*MAP TILE START*/
+
+  let mapTileTitle = "De Montfort University";
+  let mapTileText = "44Lorem Ipsum is simply dummy text of the printing and typesetting industry. 11Lorem Ipsum is simply dummy text of the printing and typesetting industry. 11Lorem Ipsum is simply dummy text of the printing and typesetting industry.";
+
+  centreSection.appendChild(createSection(mapTileTitle,mapTileText));
+
+  let mapDiv = document.createElement("DIV");
+  mapDiv.setAttribute("id", "map");
+  mapDiv.setAttribute("class", "map slides");
+  slideImages.appendChild(mapDiv);
+
+  function initMap() {
+
+    let latitude = 52.6295784;
+    let longitude = -1.1388043;
+
+    google.maps.event.trigger(map, 'resize');
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat:parseFloat(latitude), lng:parseFloat(longitude)},
+      zoom: 15
+    });
+
+    let marker = new google.maps.Marker({
+          position: {lat:parseFloat(latitude), lng:parseFloat(longitude)},
+          map: map,
+          title: 'Hello World!'
+        });
+  }
+
+  let map_canvas = document.getElementById('map');
+  // function required to correctly load map when no longer hidden
+  function visibleMapPlz() {
+    setTimeout(function () {
+        if (map_canvas.style.display !== 'none') {
+            initMap();
+        } else {
+            visibleMapPlz();
+        };
+    }, 100);
+};
+
+visibleMapPlz();
 
 
+/*MAP TILE END*/
 }());
