@@ -1,18 +1,17 @@
 let index = 0;
 let i;
 let slides = document.getElementsByClassName("slides");
-let slideText = document.getElementsByClassName("slideText");
 let timeout;
 let paused = false;
 let pausePlay = document.getElementsByClassName("pausePlay");
 let timer = 15000;
-
 pausePlay[0].style.display = "block";
 pausePlay[1].style.display = "none";
 
 let pauseButton = document.getElementById("pauseButton");
 let nextButton = document.getElementById("nextButton");
 let prevButton = document.getElementById("prevButton");
+let slideText = document.getElementsByClassName("slideText");
 
 pauseButton.addEventListener("click", pause);
 nextButton.addEventListener("click", next);

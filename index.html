@@ -70,9 +70,29 @@
     </nav>
   </main>
 
+  <script>
+    function initMap() {
+          map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: 52.6295784, lng: -1.1388043},
+            zoom: 15
+          });
+        }
+      </script>
+
+      <style>
+      #map {
+        height: 500px;
+      }
+
+      div#map,div#map div{ overflow:visible;}
+
+    </style>
+
+
   <script src="scripts/data.js"></script>
-  <script src="scripts/star.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDI5L9ZVg3qcoieQStHshTwcHJMT0mpnEg&callback=initMap"></script>
   <script src="scripts/infoReader.js"></script>
+  <script src="scripts/star.js"></script>
   <script src="scripts/slideshow.js"></script>
 </body>
 </html>

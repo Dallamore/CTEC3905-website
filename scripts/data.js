@@ -5,20 +5,20 @@
 let jsonString = `
 { "siteContent": [
   {
-    "imgTitle":"Numero1" ,
-    "imgLocation":"images/1.jpg",
-    "imgText":"11Lorem Ipsum is simply dummy text of the printing and typesetting industry. 11Lorem Ipsum is simply dummy text of the printing and typesetting industry. 11Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    "tileTitle":"Numero1" ,
+    "tileFeature":"images/1.jpg",
+    "tileText":"11Lorem Ipsum is simply dummy text of the printing and typesetting industry. 11Lorem Ipsum is simply dummy text of the printing and typesetting industry. 11Lorem Ipsum is simply dummy text of the printing and typesetting industry."
   },
 
   {
-    "imgTitle":"Numero2" ,
-    "imgLocation":"images/2.jpg",
-    "imgText":"22Lorem Ipsum is simply dummy text of the printing and typesetting industry. 11Lorem Ipsum is simply dummy text of the printing and typesetting industry. 11Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    "tileTitle":"Numero2" ,
+    "tileFeature":"images/2.jpg",
+    "tileText":"22Lorem Ipsum is simply dummy text of the printing and typesetting industry. 11Lorem Ipsum is simply dummy text of the printing and typesetting industry. 11Lorem Ipsum is simply dummy text of the printing and typesetting industry."
   },
 
   {
-    "imgTitle":"Numero3" ,
-    "imgLocation":"images/3.jpg",
-    "imgText":"33Lorem Ipsum is simply dummy text of the printing and typesetting industry. 11Lorem Ipsum is simply dummy text of the printing and typesetting industry. 11Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    "tileTitle":"Numero3" ,
+    "tileFeature":"images/3.jpg",
+    "tileText":"33Lorem Ipsum is simply dummy text of the printing and typesetting industry. 11Lorem Ipsum is simply dummy text of the printing and typesetting industry. 11Lorem Ipsum is simply dummy text of the printing and typesetting industry."
   }
 ]}`;

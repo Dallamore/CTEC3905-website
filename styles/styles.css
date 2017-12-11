@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  /*overflow: hidden;*/
   background-color: black;
 }
 
@@ -37,7 +37,7 @@ main {
   margin: 0 auto;
 }
 
-.slidetext {
+.slideText {
   padding: 0px 10px;
   font-size: 100%;
   animation-name:fade;
