@@ -1,7 +1,7 @@
 let index = 0;
 let i;
 let slides = document.getElementsByClassName("slides");
-let slidetext = document.getElementsByClassName("slidetext");
+let slideText = document.getElementsByClassName("slideText");
 let timeout;
 let paused = false;
 let pausePlay = document.getElementsByClassName("pausePlay");
@@ -23,14 +23,14 @@ window.onload = showSlides();
 function showSlides() {
 	for ( i = 0; i < slides.length; i++) {
 		slides[i].style.display = "none";
-		slidetext[i].style.display = "none";
+		slideText[i].style.display = "none";
 	}
 	index++;
 	if (index > slides.length){
 		index = 1;
 	}
 	slides[index - 1].style.display = "block";
-	slidetext[index-1].style.display="block";
+	slideText[index-1].style.display="block";
 	timeout = setTimeout(showSlides, timer);
 }
 
@@ -61,17 +61,16 @@ function previous() {
 	if (paused){
 		pause();
 	}
-
 	clearTimeout(timeout);
 	for (i = 0; i < slides.length; i++) {
 		slides[i].style.display = "none";
-		slidetext[i].style.display = "none";
+		slideText[i].style.display = "none";
 	}
 	index--;
 	if (index < 1){
 		index = slides.length;
 	}
 	slides[index - 1].style.display = "block";
-	slidetext[index - 1].style.display = "block";
+	slideText[index - 1].style.display = "block";
 	timeout = setTimeout(showSlides, timer);
 }
