@@ -149,7 +149,7 @@ section{
 
 
 
-
+/*
 @media only screen and (min-width: 565px) {
   .slides{
     width: 80%;
@@ -203,4 +203,5 @@ section{
     padding-top: 3%;
   }
 }
+*/
 /*MEDIA QUERIES END*/
