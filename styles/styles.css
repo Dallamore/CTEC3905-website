@@ -32,16 +32,17 @@ main {
 .slides{
   width: 100%;
   height: auto;
+  margin: 0 auto;
+}
+
+.slideAnimation{
   animation-name:fade;
   animation-duration: 15s;
-  margin: 0 auto;
 }
 
 .slideText {
   padding: 0px 10px;
   font-size: 100%;
-  animation-name:fade;
-  animation-duration: 15s;
 }
 
 nav {
@@ -77,6 +78,10 @@ nav button:hover {
 
 .pausePlay{
   margin: 0 auto;
+}
+
+.pauseButton{
+  display: none;
 }
 
 section{

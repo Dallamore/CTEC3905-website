@@ -21,7 +21,7 @@
 
   function createSection(x, y){
     let tt = document.createElement("SECTION");
-    tt.setAttribute("class", "slideText");
+    tt.setAttribute("class", "slideText slideAnimation");
     tt.appendChild(createTitle(x));
     tt.appendChild(createText(y));
     return tt;
@@ -45,7 +45,7 @@
     let j = document.createElement("IMG");
     j.setAttribute("src", x);
     j.setAttribute("alt", "Slide"+i);
-    j.setAttribute("class", "slides");
+    j.setAttribute("class", "slides slideAnimation");
     return j;
   }
 
