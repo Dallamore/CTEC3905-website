@@ -40,6 +40,8 @@ main {
   width: 70vw;
   height: auto;
   margin: 0 auto;
+  max-width: 400px;
+  max-height: 400px;
 }
 
 .slideAnimation{
