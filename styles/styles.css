@@ -21,8 +21,8 @@ svg {
 }
 
 .nameTitle{
-  margin-left: 2vw;
-  /* margin-bottom: 0px; */
+  padding-left: 2vw;
+  margin-bottom: 0px;
   font-size: 9vw;
 }
 
@@ -36,7 +36,6 @@ main {
   height: 93vh;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
 }
 
 .flexMe{
@@ -52,7 +51,6 @@ main {
   margin: auto;
   margin-bottom:2%;
   max-width: 500px;
-  /*max-height: 400px;*/
 }
 
 .slideAnimation{
@@ -60,17 +58,15 @@ main {
   animation-duration: 15s;
 }
 
-.slideText h1{
-  margin-top: 2%;
+.slideText h2{
+  margin: 2%;
 }
 
 .slideText {
   /*padding: 0px 10px;*/
   font-size: 90%;
   width: 75vw;
-  height: auto;
   margin: 0 auto;
-  overflow: hidden;
 }
 
 nav {
@@ -82,7 +78,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2em;
+  font-size: 1.5em;
   width: inherit;
 }
 
@@ -90,7 +86,7 @@ nav button {
   display: inline-block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 12px;
   flex-grow: 1;
   border-radius: 10px;
   text-decoration: none;
