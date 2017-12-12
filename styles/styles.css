@@ -14,23 +14,30 @@ svg {
   z-index: -1;
 }
 
+.nameTitle{
+  margin-left: 2vw;
+}
+
 main {
+  margin-top: 5%;
   font-family: 'Ubuntu', sans-serif;
-  width: 85%;
+  width: 88vw;
+  height: 85vh;
   background-color: RGBA(128,128,128,0.5);
   color: white;
 }
 
 .centre{
-  padding-top: 5%;
+  margin-top: 5%;
   display: flex;
   flex-direction: column;
-  margin: 2em auto;
-  width: 90%;
+  /*margin: 0 auto;*/
+  width: 88vw;
+  height: 85vh;
 }
 
 .slides{
-  width: 100%;
+  width: 70vw;
   height: auto;
   margin: 0 auto;
 }
@@ -41,13 +48,15 @@ main {
 }
 
 .slideText {
-  padding: 0px 10px;
+  /*padding: 0px 10px;*/
   font-size: 100%;
+  width: 75vw;
+  margin: 0 auto;
 }
 
 nav {
   margin-right: 0;
-  margin-left: 5%;
+  /*margin-left: 5%;*/
   margin-top: auto;
   margin-bottom: 20px;
   padding: 0;
