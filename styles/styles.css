@@ -139,6 +139,12 @@ section{
 /*SPACESHIP PARTS COLOURS START*/
 
 /*MEDIA QUERIES START*/
+
+/*CHANGE SLIDES WIDTH AND HEIGHT IN MEDIA QUERIES*/
+
+
+
+
 @media only screen and (min-width: 565px) {
   .slides{
     width: 80%;
