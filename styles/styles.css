@@ -85,6 +85,12 @@ section{
   align-items: center;
 }
 
+.map {
+  height: 500px;
+  width: auto;
+  /*width: 1500px;*/
+}
+
 /*ANIMATION ITEMS START*/
 @keyframes fade {
   0% {transform: translateX(-350%);}
