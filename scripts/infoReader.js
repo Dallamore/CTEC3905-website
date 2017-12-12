@@ -28,7 +28,7 @@
   }
 
   function createTitle(x){
-    let h1 = document.createElement("H1");
+    let h1 = document.createElement("H2");
     let h1x = document.createTextNode(x);
     h1.appendChild(h1x);
     return h1;
