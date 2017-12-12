@@ -198,7 +198,6 @@ section{
 @media only screen and (min-width: 700px) {
   body{background-color: green;}
   main{margin-top: 3%;}
-  .centre{margin-top: 3%;}
   .nameTitle{margin-bottom: 10px;}
   }
 
@@ -206,8 +205,10 @@ section{
   body{background-color: pink;}
   .nameTitle{font-size: 7vw;}
   .flexMe{flex-direction: row;}
-  .
+}
 
+@media only screen and (min-width: 1440px) {
+  main{margin-top: 1%;}
 }
 
 
