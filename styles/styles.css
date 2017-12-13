@@ -112,8 +112,8 @@ section{
 }
 
 .map {
-  height: 50vh;
-  width: 60vw;
+  height: 38vh;
+  width: 75vw;
 }
 
 /*ANIMATION ITEMS START*/
@@ -198,8 +198,8 @@ section{
   /*body{background-color: green;}*/
   .nameTitle{font-size: 7vw;}
   .flexMe{flex-direction: row;}
-  .slideText{margin: 0 10px; font-size: 150%;}
-  .slideAnimation{max-width: 35vw; max-height: 60vh;}
+  .slideText{margin: 0 10px; font-size: 200%;}
+  .slideAnimation{max-width: 35vw; max-height: 65vh;}
   .map {height: 50vh; width: 40vw;}
 }
 /*MEDIA QUERIES END*/
