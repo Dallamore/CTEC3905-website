@@ -1,6 +1,6 @@
 (function(){
   let slideImages = document.getElementById("slideImgs");
-  let centreSection = document.getElementById("centre");
+  let centreSection = document.getElementById("tileTextTarget");
   let obj = JSON.parse(jsonString);
 
   let tileTitleArray = [];
@@ -58,7 +58,7 @@
 
   let mapDiv = document.createElement("DIV");
   mapDiv.setAttribute("id", "map");
-  mapDiv.setAttribute("class", "map slides");
+  mapDiv.setAttribute("class", "map slides slideAnimation");
   slideImages.appendChild(mapDiv);
 
   function initMap() {

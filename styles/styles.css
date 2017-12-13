@@ -1,8 +1,8 @@
-section{border: 2px solid red;}
+/*section{border: 2px solid red;}
 div{border: 2px solid blue;}
 p{border: 2px solid pink;}
 h1{border: 2px solid yellow;}
-main{border: 2px solid pink;}
+main{border: 2px solid pink;}*/
 
 body {
   margin: 0;
@@ -63,7 +63,6 @@ main {
 }
 
 .slideText {
-  /*padding: 0px 10px;*/
   font-size: 90%;
   width: 75vw;
   margin: 0 auto;
@@ -71,7 +70,6 @@ main {
 
 nav {
   margin-right: 0;
-  /*margin-left: 5%;*/
   margin-top: auto;
   padding: 0;
   overflow: hidden;
@@ -169,50 +167,39 @@ section{
 /*MEDIA QUERIES START*/
 
 /*CHANGE SLIDES WIDTH AND HEIGHT IN MEDIA QUERIES*/
-
-@media only screen and (min-width: 420px) {
-  body{background-color: blue;}
+@media only screen and (min-width: 520px) {
+  /*body{background-color: blue;}*/
   .slides{width: 70vw;}
   .slidetext{font-size: 85%; width: 75vw; height: 75vw;}
+  .nameTitle{margin-top: 2%;}
 }
 
-@media only screen and (min-width: 440px) {
-  body{background-color: pink;}
+@media only screen and (min-width: 600px) {
+  /*body{background-color: pink;}*/
   .slides{width: 60vw;}
   .slidetext{font-size: 80%; width: 75vw; height: 75vw;}
 }
 
-@media only screen and (min-width: 505px) {
-  body{background-color: brown;}
+@media only screen and (min-width: 680px) {
+  /*body{background-color: brown;}*/
   .slides{width: 50vw;}
   .slidetext{font-size: 70%; width: 75vw; height: 75vw;}
 }
 
-@media only screen and (min-width: 580px) {
-  body{background-color: red;}
+@media only screen and (min-width: 800px) {
+  /*body{background-color: red;}*/
   .slides{width: 40vw;}
   .slidetext{font-size: 60%; width: 75vw; height: 75vw;}
-  .nameTitle{margin-top: 0.5vw;
-}
-
-@media only screen and (min-width: 700px) {
-  body{background-color: green;}
-  main{margin-top: 3%;}
-  .nameTitle{margin-bottom: 10px;}
-  }
-
-@media only screen and (min-width: 850px) {
-  body{background-color: pink;}
-  .nameTitle{font-size: 7vw;}
-  .flexMe{flex-direction: row;}
-}
-
-@media only screen and (min-width: 1440px) {
+  .nameTitle{margin-top: 0.5vw;}
   main{margin-top: 1%;}
 }
 
-
-
-
-
+@media only screen and (min-width: 1110px) {
+  /*body{background-color: green;}*/
+  .nameTitle{font-size: 7vw;}
+  .flexMe{flex-direction: row;}
+  .slideText{margin: 0 50px; font-size: 200%;}
+  .slides{max-width: 500px;}
+  .slideAnimation{max-width: 500px;}
+}
 /*MEDIA QUERIES END*/
