@@ -97,14 +97,6 @@ nav button:hover {
   opacity: 1;
 }
 
-.pausePlay{
-  margin: 0 auto;
-}
-
-.pauseButton{
-  display: none;
-}
-
 section{
   flex: 1;
   justify-content: center;
