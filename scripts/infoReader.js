@@ -74,6 +74,7 @@
 
     let marker = new google.maps.Marker({
           position: {lat:parseFloat(latitude), lng:parseFloat(longitude)},
+          icon: 'images/mapRocket.png',
           map: map,
           title: 'Hello World!'
         });

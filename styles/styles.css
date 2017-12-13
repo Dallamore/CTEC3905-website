@@ -112,9 +112,8 @@ section{
 }
 
 .map {
-  height: 500px;
-  width: auto;
-  /*width: 1500px;*/
+  height: 50vh;
+  width: 60vw;
 }
 
 /*ANIMATION ITEMS START*/
@@ -172,6 +171,7 @@ section{
   .slides{width: 70vw;}
   .slidetext{font-size: 85%; width: 75vw; height: 75vw;}
   .nameTitle{margin-top: 2%;}
+  .map {height: 50vh; width: 70vw;}
 }
 
 @media only screen and (min-width: 600px) {
@@ -198,8 +198,8 @@ section{
   /*body{background-color: green;}*/
   .nameTitle{font-size: 7vw;}
   .flexMe{flex-direction: row;}
-  .slideText{margin: 0 50px; font-size: 200%;}
-  .slides{max-width: 500px;}
-  .slideAnimation{max-width: 500px;}
+  .slideText{margin: 0 10px; font-size: 150%;}
+  .slideAnimation{max-width: 35vw; max-height: 60vh;}
+  .map {height: 50vh; width: 40vw;}
 }
 /*MEDIA QUERIES END*/
