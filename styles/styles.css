@@ -131,8 +131,8 @@ section{
 }
 
 @keyframes fly {
-  0% {transform: translateY(110%);}
-  100% {transform: translateY(-10%);}
+  0% {transform: translateY(1500%);}
+  100% {transform: translateY(-100%);}
 }
 /*
 @keyframes flicker{
@@ -155,13 +155,6 @@ section{
 */
 /*ANIMATION ITEMS END*/
 
-/*SPACESHIP PARTS COLOURS START*/
-.shipBody{fill: #4AA0D8;}
-.shipBase{fill: #397AA7;}
-.shipFins{fill: #CCCCCC;}
-.shipFireInner{fill: #FFCC67;}
-.shipFireOuter{fill: #ED7061;}
-/*SPACESHIP PARTS COLOURS START*/
 
 /*MEDIA QUERIES START*/
 

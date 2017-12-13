@@ -26,6 +26,14 @@ data.js is a small file containing the basics of all content on the website: tit
 ### slideshow.js
 
 A fully scalable piece of JavaScript which takes all the elements with class "slides" and switches between them in order. This is combined with a CSS animation which happens at the same time to literally *slide* each slide off of the screen.  
+***
+## More Features
+### Validated
+
+
+
+
+
 
 <!-- - a
 - b
