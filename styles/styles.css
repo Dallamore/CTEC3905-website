@@ -54,8 +54,7 @@ main {
 }
 
 .slideAnimation{
-  animation-name:fade;
-  animation-duration: 15s;
+  /*animation:fade 15s;*/
 }
 
 .slideText h2{
