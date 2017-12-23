@@ -43,29 +43,11 @@ Designed with accessibility in mind and validated using [AChecker](https://achec
 ***
 
 ## Problems
-### Animation
+### Multiple Animation
 
 During development code was written and can still be found in the CSS to make the spaceship's fire flicker whilst flying. However, it is very problematic to introduce a second animation and very incompatible. At one point it worked in Chrome, but functioned extremely poorly in Safari.
-
-### Pause Button
-
-A very useful feature of a slideshow is the ability to pause it when required, this originally was included in the nav bar and functioned reasonably well, however it would not work with the sliding animation, and caused more issues if another button was pressed while paused.
 
 ***
 ## Acknowledgments
 
-The design for the spaceship was taken from [IconFinder](https://www.iconfinder.com/icons/416398/aliens_exploration_fuel_nasa_rocket_space_spaceship_icon). When finding a design I didn't realize it was an SVG, so took their image as a jpg and drawn an SVG using it.
-
-
-
-
-
-<!-- - a
-- b
-* a
-`code snippet`
-The file `star.js` is shite
-cbvc bvcgnb
-- [ ] eat
-- [x] masterbate
-*** -->
+The design for the spaceship was taken from [IconFinder](https://www.iconfinder.com/icons/416398/aliens_exploration_fuel_nasa_rocket_space_spaceship_icon). When finding a design I didn't realize it was an SVG, so took their image as a jpg and used it to draw my own SVG path.
