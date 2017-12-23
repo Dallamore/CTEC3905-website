@@ -46,14 +46,10 @@ main {
 }
 
 .slides{
-  width: 315px;
-  height: 315px;
+  width: 290px;
+  height: 290px;
   margin: auto;
   margin-bottom:2%;
-}
-
-.slideAnimation{
-  /*animation:fade 15s;*/
 }
 
 .slideText h2{
@@ -61,7 +57,7 @@ main {
 }
 
 .slideText {
-  font-size: 90%;
+  font-size: 0.9em;
   width: 75vw;
   margin: 0 auto;
 }
@@ -150,7 +146,7 @@ section{
 @media only screen and (min-width: 520px) {
   body{background-color: blue;}
   .slides{width: 400px; height: 400px;}
-  .slidetext{font-size: 85%; width: 75vw; height: 75vw;}
+  .slideText{font-size: 1.2em;}
   .nameTitle{margin-top: 2%;}
 }
 
@@ -161,15 +157,15 @@ section{
 }
 
 @media only screen and (min-width: 680px) {
-  body{background-color: brown;}
+  body{background-color: orange;}
   .slides{width: 500px; height: 500px;}
-  .slidetext{font-size: 70%; width: 75vw; height: 75vw;}
+  .slideText{font-size: 1.5em;}
 }
 
 @media only screen and (min-width: 800px) {
   body{background-color: red;}
   .slides{width: 600px; height: 600px;}
-  .slidetext{font-size: 60%; width: 75vw; height: 75vw;}
+  .slideText{font-size: 2.2em;}
   .nameTitle{margin-top: 0.5vw;}
   main{margin-top: 1%;}
 }
@@ -177,7 +173,7 @@ section{
 @media only screen and (min-width: 1110px) {
   body{background-color: green;}
   .slides{width: 700px; height: 700px;}
-  .slidetext{font-size: 60%; width: 75vw; height: 75vw;}
+  .slideText{font-size: 60%;}
   .nameTitle{margin-top: 0.5vw;}
 }
 
