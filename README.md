@@ -49,14 +49,14 @@ A Sitemap has been generated and included primarily for the potential advantage 
 
 All breakpoints were initially completed using the pre-set options in Chrome's inspector which include: Galaxy S5, Nexus 5X, Nexus 6P, iPhone 7, iPhone 7 Plus, iPhone 8, iPhone 8 Plus, iPhone X, iPad, and iPad Pro.
 
-It then came to my attention that these breakpoints do not cater for small laptop/tablet screen sizes.
+It then came to my attention that these breakpoints do not cater for small laptop/tablet screen sizes. This lead to the creation of the following pie chart show showing the most common screen resolutions. It seemed reasonable to ensure my website catered for these sizes at the very least.
 
-
+![NASA approved designs yo](res_usage.png)
 
 ***
 
 ## Problems
-### Multiple Animation
+### Multiple Animations
 
 During development code was written and can still be found in the CSS to make the spaceship's fire flicker whilst flying. However, it is very problematic to introduce a second animation and very incompatible. At one point it worked in Chrome, but functioned extremely poorly in Safari.
 
