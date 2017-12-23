@@ -173,11 +173,17 @@ section{
   main{margin-top: 4%;}
 }
 
+@media only screen and (min-width: 800px) and (max-height: 1250px) {
+  body{background-color: purple;}
+  .slides{width: 300px; height: 300px;}
+  .slideText{margin: 5px 20px; font-size: 125%; width: 700px;}
+  main{margin-top: 4%;}
+
+  /* .flexMe{flex-direction: row;} */
+}
+
 @media only screen and (min-width: 1110px) {
   body{background-color: green;}
-  /* .slides{width: 700px; height: 700px;}
-  .slideText{font-size: 60%;}
-  .nameTitle{margin-top: 0.5vw;} */
   .slides{width: 400px; height: 400px;}
   .nameTitle{font-size: 7vw;}
   .flexMe{flex-direction: row;}
@@ -188,9 +194,15 @@ section{
 @media only screen and (min-width: 1399px) {
   body{background-color: white;}
   .slides{width: 550px; height: 550px;}
-
   .slideText{margin: 5px 20px; font-size: 200%; width: 600px;}
   main{margin-top: 2%;}
 }
+
+@media only screen and (min-width: 2000px) {
+  body{background-color: black;}
+  .slides{width: 700px; height: 700px;}
+  .slideText{margin: 5px 20px; font-size: 200%; width: 700px;}
+  .flexMe{margin-top: 100px;}
+
 
 /*MEDIA QUERIES END */
