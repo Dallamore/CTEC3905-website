@@ -45,8 +45,8 @@ main {
 }
 
 .slides{
-  width: 290px;
-  height: 290px;
+  width: 260px;
+  height: 260px;
   margin: auto;
   margin-bottom:2%;
 }
@@ -59,6 +59,7 @@ main {
   font-size: 0.9em;
   width: 75vw;
   margin: 0 auto;
+  margin-bottom: -10px;
 }
 
 .pausePlay{
@@ -72,7 +73,6 @@ nav {
   overflow: hidden;
   display: flex;
   justify-content: center;
-  align-items: center;
   font-size: 1.5em;
   width: inherit;
 }
@@ -140,9 +140,6 @@ section{
 /*ANIMATION ITEMS END*/
 
 
-
-
-
 /*MEDIA QUERIES START*/
 
 /* CHANGE SLIDES WIDTH AND HEIGHT IN MEDIA QUERIES*/
@@ -178,8 +175,6 @@ section{
   .slides{width: 300px; height: 300px;}
   .slideText{margin: 5px 20px; font-size: 125%; width: 700px;}
   main{margin-top: 4%;}
-
-  /* .flexMe{flex-direction: row;} */
 }
 
 @media only screen and (min-width: 1110px) {
