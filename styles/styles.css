@@ -30,7 +30,6 @@ main {
   font-family: 'Ubuntu', sans-serif;
   background-color: RGBA(128,128,128,0.5);
   color: white;
-
   margin-top: 5%;
   width: 84vw;
   height: 93vh;
@@ -59,6 +58,10 @@ main {
 .slideText {
   font-size: 0.9em;
   width: 75vw;
+  margin: 0 auto;
+}
+
+.pausePlay{
   margin: 0 auto;
 }
 
@@ -184,9 +187,8 @@ section{
 
 @media only screen and (min-width: 1399px) {
   body{background-color: white;}
-  .slides{width: 600px; height: 600px;}
-  .nameTitle{font-size: 7vw;}
-  .flexMe{flex-direction: row;}
+  .slides{width: 550px; height: 550px;}
+
   .slideText{margin: 5px 20px; font-size: 200%; width: 600px;}
   main{margin-top: 2%;}
 }
