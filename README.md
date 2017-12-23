@@ -40,6 +40,19 @@ Designed with accessibility in mind and validated using [AChecker](https://achec
 2. Content makes sense?
 3. Any more thoughts?
 
+
+### Sitemap Included
+
+A Sitemap has been generated and included primarily for the potential advantage of site crawlers. This being a one page site there isn't much more additional use.
+
+### Breakpoints
+
+All breakpoints were initially completed using the pre-set options in Chrome's inspector which include: Galaxy S5, Nexus 5X, Nexus 6P, iPhone 7, iPhone 7 Plus, iPhone 8, iPhone 8 Plus, iPhone X, iPad, and iPad Pro.
+
+It then came to my attention that these breakpoints do not cater for small laptop/tablet screen sizes.
+
+
+
 ***
 
 ## Problems
