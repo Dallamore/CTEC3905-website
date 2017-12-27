@@ -13,7 +13,7 @@ Originally only the desktop version was to include the spaceship animated to fly
 ## The Best Bits
 ### The Spaceship
 
-A spaceship picture draw in Photoshop, exported to Illustrator and again exported in an SVG format. The fill color for each part of the ship, and the animation to make it fly up the page, are all defined in CSS.
+A spaceship picture draw in Photoshop, exported to Illustrator and again exported in an SVG format. The fill colour for each part of the ship, and the animation to make it fly up the page, are all defined in CSS.
 
 ### Stars.js
 

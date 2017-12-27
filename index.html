@@ -1,52 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="David Dallamore" content="Currently a student at De Montfort University in Leicester.">
-      <title>David Dallamore | The Site</title>
-      <link rel="stylesheet" href="styles/styles.css">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:700">
-      <link rel="icon" href="images/fav.ico">
-      <!-- Allows media queries to trigger in Chrome responsive mode -->
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-   </head>
-   <body>
-      <svg id="canvas"></svg>
 
-      <!--Target for background stars JS-->
-      <img src="images/spaceship.svg" class="spaceship" alt="Spaceship"/>
-      <main id="centre">
-         <section>
-            <h1 class="nameTitle">David Dallamore:</h1>
-            <div class="flexMe">
-               <div id="slideImgs">
-                  <!-- Javascript loads images here -->
-               </div>
-               <div id="tileTextTarget">
-                 <!-- Javascript loads sections containing h1 and p here -->
-             </div>
-            </div>
-         </section>
-         <nav class="btnContainer">
-           
-           <button id="prevButton" class="slideshowButton">
-             <img src="images/back.svg" alt="Previous Slide">
-           </button>
+<head>
+  <meta charset="UTF-8">
+  <meta name="David Dallamore" content="Currently a student at De Montfort University in Leicester.">
+  <title>David Dallamore | The Site</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:700">
+  <link rel="icon" href="images/fav.ico">
+  <!-- Allows media queries to trigger in Chrome responsive mode -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
 
-           <button id="pauseButton" class="slideshowButton pauseButton">
-             <img src="images/pause.svg" alt="Pause Slide" class="pausePlay">
-             <img src="images/play.svg" alt="Play Slide" class="pausePlay">
-           </button>
-
-           <button id="nextButton" class="slideshowButton">
-             <img src="images/next.svg" alt="Next Slide">
-           </button>
-         </nav>
-      </main>
-      <script src="scripts/data.js"></script>
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDI5L9ZVg3qcoieQStHshTwcHJMT0mpnEg"></script>
-      <script src="scripts/infoReader.js"></script>
-      <script src="scripts/star.js"></script>
-      <script src="scripts/slideshow.js"></script>
-   </body>
+<body>
+  <svg id="canvas"></svg>
+  <!--Target for background stars JS-->
+  <img src="images/spaceship.svg" class="spaceship" alt="Spaceship" />
+  <main id="centre">
+    <section>
+      <h1 class="nameTitle">David Dallamore:</h1>
+      <div class="flexMe">
+        <div id="slideImgs">
+          <!-- Javascript loads images here -->
+        </div>
+        <div id="tileTextTarget">
+          <!-- Javascript loads sections containing h1 and p here -->
+        </div>
+      </div>
+    </section>
+    <nav class="btnContainer">
+      <button id="prevButton" class="slideshowButton">
+        <img src="images/back.svg" alt="Previous Slide">
+      </button>
+      <button id="pauseButton" class="slideshowButton pauseButton">
+        <img src="images/pause.svg" alt="Pause Slide" class="pausePlay">
+        <img src="images/play.svg" alt="Play Slide" class="pausePlay">
+      </button>
+      <button id="nextButton" class="slideshowButton">
+        <img src="images/next.svg" alt="Next Slide">
+      </button>
+    </nav>
+  </main>
+  <script src="scripts/data.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDI5L9ZVg3qcoieQStHshTwcHJMT0mpnEg"></script>
+  <script src="scripts/infoReader.js"></script>
+  <script src="scripts/star.js"></script>
+  <script src="scripts/slideshow.js"></script>
+</body>
 </html>
