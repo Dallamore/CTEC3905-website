@@ -2,7 +2,7 @@
 
 ## Original Designs
 
-![NASA approved designs yo](mdimages/designs.png)
+![NASA approved designs yo](/mdimages/designs.png)
 
 The top half shows the wire frame of the full desktop site on the left and the mobile site on the right and bottom half shows the same designs but much more fleshed out.
 
@@ -51,7 +51,7 @@ All breakpoints were initially completed using the pre-set options in Chrome's i
 
 It then came to my attention that these breakpoints do not cater for small laptop/tablet screen sizes. This lead to the creation of the following pie chart show showing the most common screen resolutions. It seemed reasonable to ensure my website catered for these sizes at the very least.
 
-![Most common resolutions pie chart](mdimages/res_usage.png)
+![Most common resolutions pie chart](/mdimages/res_usage.png)
 
 Almost all of the tuning of the breakpoint was to be certain that these resolutions would all display correctly.
 
