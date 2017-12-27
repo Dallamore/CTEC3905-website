@@ -51,7 +51,9 @@ All breakpoints were initially completed using the pre-set options in Chrome's i
 
 It then came to my attention that these breakpoints do not cater for small laptop/tablet screen sizes. This lead to the creation of the following pie chart show showing the most common screen resolutions. It seemed reasonable to ensure my website catered for these sizes at the very least.
 
-![NASA approved designs yo](res_usage.png)
+![Most common resolutions pie chart](res_usage.png)
+
+Almost all of the tuning of the breakpoint was to be certain that these resolutions would all display correctly.
 
 ***
 
@@ -64,3 +66,5 @@ During development code was written and can still be found in the CSS to make th
 ## Acknowledgments
 
 The design for the spaceship was taken from [IconFinder](https://www.iconfinder.com/icons/416398/aliens_exploration_fuel_nasa_rocket_space_spaceship_icon). When finding a design I didn't realize it was an SVG, so took their image as a jpg and used it to draw my own SVG path.
+
+The information for the most common resolutions used to create a pie chart came from  [W3Schools](https://www.w3schools.com/browsers/browsers_display.asp).
