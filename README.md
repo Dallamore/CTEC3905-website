@@ -68,3 +68,5 @@ During development code was written and can still be found in the CSS to make th
 The design for the spaceship was taken from [IconFinder](https://www.iconfinder.com/icons/416398/aliens_exploration_fuel_nasa_rocket_space_spaceship_icon). When finding a design I didn't realize it was an SVG, so took their image as a jpg and used it to draw my own SVG path.
 
 The information for the most common resolutions used to create a pie chart came from  [W3Schools](https://www.w3schools.com/browsers/browsers_display.asp).
+
+***
