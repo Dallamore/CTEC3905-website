@@ -16,10 +16,12 @@ pausePlay[1].style.display = "none";
 let slides = document.getElementsByClassName("slides");
 let slideText = document.getElementsByClassName("slideText");
 
+//adds event listeners to all buttons
 pauseButton.addEventListener("click", pause);
 nextButton.addEventListener("click", next);
 prevButton.addEventListener("click", previous);
 
+//adds CSS animation to all slides and associated text
 for(i=0; i<slides.length; i++){
   slides[i].style.animation = animation;
   slideText[i].style.animation = animation;
@@ -27,6 +29,7 @@ for(i=0; i<slides.length; i++){
 
 window.onload = showSlides();
 
+//starts slide show by changing display value slides and text
 function showSlides() {
   for ( i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
@@ -41,6 +44,7 @@ function showSlides() {
   timeOut = setTimeout(showSlides, timer);
 }
 
+//resets timer and unhindes next slide, while hiding current slide
 function next() {
   clearTimeout(timeOut);
   if (paused){
@@ -49,6 +53,7 @@ function next() {
   showSlides();
 }
 
+//stops timer, changes pause icon to play icon and whie checking current pause value
 function pause() {
 	clearTimeout(timeOut);
   if (!paused) {
@@ -74,6 +79,7 @@ function pause() {
   clearTimeout(timeOut);
  }
 
+ //restes timer, goes back one slide and hides current slide
 function previous() {
   if (paused){
     pause();

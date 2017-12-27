@@ -1,3 +1,6 @@
+//creates a section, adds a title and text and adds to page, also adds images
+//Also adds Google Maps API after all other images/sections
+
 (function(){
   let slideImages = document.getElementById("slideImgs");
   let centreSection = document.getElementById("tileTextTarget");
@@ -49,10 +52,11 @@
     return j;
   }
 
+
 /*MAP TILE START*/
 
   let mapTileTitle = "De Montfort University";
-  let mapTileText = "44Lorem Ipsum is simply dummy text of the printing and typesetting industry. 11Lorem Ipsum is simply dummy text of the printing and typesetting industry. 11Lorem Ipsum is simply dummy text of the printing and typesetting industry.";
+  let mapTileText = "MAPorem Ipsum is simply dummy text of the printing and typesetting industry. MAPorem Ipsum is simply dummy text of the printing and typesetting industry. MAPorem Ipsum is simply dummy text of the printing and typesetting industry.";
 
   centreSection.appendChild(createSection(mapTileTitle,mapTileText));
 

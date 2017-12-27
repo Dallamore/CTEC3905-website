@@ -144,26 +144,26 @@ section{
 
 /* CHANGE SLIDES WIDTH AND HEIGHT IN MEDIA QUERIES*/
 @media only screen and (min-width: 520px) {
-  body{background-color: blue;}
+  /* body{background-color: blue;} */
   .slides{width: 400px; height: 400px;}
   .slideText{font-size: 1.2em;}
   .nameTitle{margin-top: 2%;}
 }
 
 @media only screen and (min-width: 600px) {
-  body{background-color: pink;}
+  /* body{background-color: pink;} */
   .slides{width: 450px; height: 450px;}
   .slidetext{font-size: 80%; width: 75vw; height: 75vw;}
 }
 
 @media only screen and (min-width: 680px) {
-  body{background-color: orange;}
+  /* body{background-color: orange;} */
   .slides{width: 450px; height: 450px;}
   .slideText{font-size: 1.5em;}
 }
 
 @media only screen and (min-width: 800px) {
-  body{background-color: red;}
+  /* body{background-color: red;} */
   .slides{width: 600px; height: 600px;}
   .slideText{font-size: 2.2em;}
   .nameTitle{margin-top: 0.5vw;}
@@ -171,14 +171,14 @@ section{
 }
 
 @media only screen and (min-width: 800px) and (max-height: 1250px) {
-  body{background-color: purple;}
+  /* body{background-color: purple;} */
   .slides{width: 300px; height: 300px;}
   .slideText{margin: 5px 20px; font-size: 115%; width: 700px;}
   main{margin-top: 4%;}
 }
 
 @media only screen and (min-width: 1110px) {
-  body{background-color: green;}
+  /* body{background-color: green;} */
   .slides{width: 400px; height: 400px;}
   .nameTitle{font-size: 7vw;}
   .flexMe{flex-direction: row;}
@@ -187,14 +187,14 @@ section{
 }
 
 @media only screen and (min-width: 1399px) {
-  body{background-color: white;}
+  /* body{background-color: white;} */
   .slides{width: 500px; height: 500px;}
   .slideText{margin: 5px 20px; font-size: 200%; width: 600px;}
   main{margin-top: 2%;}
 }
 
 @media only screen and (min-width: 2000px) and (min-height: 1400px) {
-  body{background-color: black;}
+  /* body{background-color: black;} */
   .slides{width: 700px; height: 700px;}
   .slideText{margin: 5px 20px; font-size: 225%; width: 700px;}
   .flexMe{margin-top: 50px;}

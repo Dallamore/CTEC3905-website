@@ -1,7 +1,3 @@
-
-//imgText can be upto 300 characters including spaces or up to three lines
-//images must be 772x772 pixels
-
 let jsonString = `
 { "siteContent": [
   {
