@@ -2,6 +2,7 @@
 //Also adds Google Maps API after all other images/sections
 
 (function(){
+  //gets both target sections in the page aswell as the JSON data
   let slideImages = document.getElementById("slideImgs");
   let centreSection = document.getElementById("tileTextTarget");
   let obj = JSON.parse(jsonString);
@@ -11,12 +12,14 @@
   let tileTextArray = [];
   let numOfTiles = obj.siteContent.length;
 
+  //transfers JSON data to arrays
   for(i = 0; i < numOfTiles; i++){
     tileTitleArray[i] = obj.siteContent[i].tileTitle;
     tileFeatureArray[i] = obj.siteContent[i].tileFeature;
     tileTextArray[i] =  obj.siteContent[i].tileText;
   }
 
+  //adds constructed content sections to the page
   for(i = 0; i < numOfTiles; i++){
     slideImages.appendChild(createImg(tileFeatureArray[i]));
     centreSection.appendChild(createSection(tileTitleArray[i],tileTextArray[i]));

@@ -16,7 +16,7 @@ pausePlay[1].style.display = "none";
 let slides = document.getElementsByClassName("slides");
 let slideText = document.getElementsByClassName("slideText");
 
-//adds event listeners to all buttons
+//adds event listeners to all three buttons
 pauseButton.addEventListener("click", pause);
 nextButton.addEventListener("click", next);
 prevButton.addEventListener("click", previous);
@@ -44,7 +44,7 @@ function showSlides() {
   timeOut = setTimeout(showSlides, timer);
 }
 
-//resets timer and unhindes next slide, while hiding current slide
+//resets timer and un-hides next slide, while hiding current slide
 function next() {
   clearTimeout(timeOut);
   if (paused){

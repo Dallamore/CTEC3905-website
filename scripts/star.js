@@ -19,7 +19,7 @@
 	  svgDocument.appendChild(stArray[i]);
 	}
 
-	//function to geenrate random XY coordinates
+	//function to generate random XY coordinates
 	function getRandomInt(min, max) {
 		return Math.floor(Math.random() * (max - min + 1)) + min;
 	}
