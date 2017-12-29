@@ -141,7 +141,7 @@ section {
 /* CHANGE SLIDES WIDTH AND HEIGHT IN MEDIA QUERIES*/
 
 @media only screen and (min-width: 680px) {
-    body{background-color: orange;}
+    /* body{background-color: orange;} */
 
     .slides {
         width: 35vh;
@@ -152,7 +152,7 @@ section {
     }
 }
 @media only screen and (min-width: 800px) {
-    body{background-color: red;}
+    /* body{background-color: red;} */
 
     .slides {
         width: 35vh;
@@ -169,7 +169,7 @@ section {
     }
 }
 @media only screen and (min-width: 800px) and (max-height: 1250px) {
-    body{background-color: purple;}
+    /* body{background-color: purple;} */
 
     .slides {
         width: 40vh;
@@ -188,7 +188,7 @@ section {
     }
 }
 @media only screen and (min-width: 1110px) {
-    body{background-color: green;}
+    /* body{background-color: green;} */
 
     .slides {
         width: 45vh;
@@ -207,7 +207,7 @@ section {
     }
 }
 @media only screen and (min-width: 1399px) {
-    body{background-color: white;}
+    /* body{background-color: white;} */
 
     .slides {
         width: 55vh;
@@ -223,7 +223,7 @@ section {
     }
 }
 @media only screen and (min-width: 2000px) and (min-height: 1400px) {
-    body{background-color: tan;}
+    /* body{background-color: tan;} */
 
     .slides {
         width: 50vh;
