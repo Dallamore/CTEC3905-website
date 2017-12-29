@@ -58,7 +58,7 @@
 
 /*MAP TILE START*/
 
-  let mapTileTitle = "De Montfort University";
+  let mapTileTitle = "Maps API";
   let mapTileText = "MAPorem Ipsum is simply dummy text of the printing and typesetting industry. MAPorem Ipsum is simply dummy text of the printing and typesetting industry. MAPorem Ipsum is simply dummy text of the printing and typesetting industry.";
 
   centreSection.appendChild(createSection(mapTileTitle,mapTileText));
